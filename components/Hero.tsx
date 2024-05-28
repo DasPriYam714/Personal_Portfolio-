@@ -2,6 +2,8 @@ import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/text-generate-effect';
 import {  TypewriterEffectSmooth } from './ui/typewriter-effect';
+import TailwindcssButtons from './ui/tailwindcss-buttons';
+import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
     const words = [
@@ -75,6 +77,13 @@ const Hero = () => {
             Hi! I&apos;m Priyam, a Frontend Developer based in Bangladesh.
           </p> */}
           <TypewriterEffectSmooth words={words} />
+          <a href="#about">
+            <TailwindcssButtons 
+            title='Show my Work'
+            icon={<FaLocationArrow className='text-white'></FaLocationArrow>}
+            position='right'></TailwindcssButtons>
+
+          </a>
         </div>
         
       </div>
