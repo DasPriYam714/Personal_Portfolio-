@@ -78,7 +78,7 @@ export const  BentoGridItem = ({
     <div
       className={cn(
         // remove p-4 rounded-3xl dark:bg-black dark:border-white/[0.2] bg-white  border border-transparent, add border border-white/[0.1] overflow-hidden relative
-        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-2",
         className
       )}
       style={{
@@ -145,7 +145,7 @@ export const  BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-6">
                 {leftLists.map((item, i) => (
                   <span
                     key={item}
@@ -178,11 +178,17 @@ export const  BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-2 right-0 ${copied ? "block" : "block"
+                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie options={{
+                    loop:copied,
+                    autoplay:copied,
+                    animationData,
+                    rendererSettings:{
+                        preserveAspectRatio: 'xMidYMid slice',
+                    }}}  />
               </div>
 
               <TailwindcssButtons
