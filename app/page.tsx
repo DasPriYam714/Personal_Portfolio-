@@ -4,6 +4,7 @@ import { FloatingNav } from "@/components/ui/floating-navbar";
 import { FaHome } from "react-icons/fa";
 import Grid from "@/components/Grid";
 import Profile from "@/components/Profile";
+import RecentProjects from "@/components/RecentProjects";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       {/* <Profile></Profile> */}
 
       <Grid></Grid>
+      <RecentProjects></RecentProjects>
 
       </div>
       
