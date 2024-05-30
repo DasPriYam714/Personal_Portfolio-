@@ -77,7 +77,7 @@ const Hero = () => {
             Hi! I&apos;m Priyam, a Frontend Developer based in Bangladesh.
           </p> */}
           <TypewriterEffectSmooth words={words} />
-          <a href="#about">
+          <a href="">
             <TailwindcssButtons 
             title='Show my Work'
             icon={<FaLocationArrow className='text-white'></FaLocationArrow>}
