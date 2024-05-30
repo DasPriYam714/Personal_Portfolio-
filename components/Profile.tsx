@@ -8,7 +8,10 @@ import { BackgroundGradient } from './ui/background-gradient';
 import { FaNodeJs, FaReact } from 'react-icons/fa';
 import { SiFigma, SiMongodb, SiNextdotjs, SiPostgresql, SiTailwindcss } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
-
+import { ImGithub } from "react-icons/im";
+import { LuLinkedin } from "react-icons/lu";
+import { RiFacebookCircleLine } from "react-icons/ri";
+import { SiDotnet } from "react-icons/si";
 interface Items{
     id: number;
   img:string;
@@ -77,19 +80,40 @@ const Profile = () => {
               <SiTailwindcss />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiDotnet />
             </span>
 
           </div>
         </div>
         </div>
+
+        <div className='mt-10px'>
+          <h2 className="text-base uppercase font-titleFont mb-4 mt-5">
+            Find me in
+          </h2>
+          <div className="flex gap-4 text-2xl">
+            <a href="https://github.com/DasPriYam714" target="_blank">
+              <span className="bannerIcon">
+                <ImGithub></ImGithub>
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/priyam-das-3454b31ab/"
+              target="_blank"
+            >
+              <span className="bannerIcon">
+                <LuLinkedin></LuLinkedin>
+              </span>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100005431756450" target="_blank">
+              <span className="bannerIcon">
+                <RiFacebookCircleLine></RiFacebookCircleLine>
+              </span>
+            </a>
+          </div>
+        </div>
         
-        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-          <span>Buy now </span>
-          <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
-            $100
-          </span>
-        </button>
+       
       </BackgroundGradient>
        
 
