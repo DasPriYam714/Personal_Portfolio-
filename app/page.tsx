@@ -7,6 +7,7 @@ import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Profile from "@/components/Profile";
+import Achievement from "@/components/ui/achievement";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
 
       <Grid></Grid>
       <RecentProjects></RecentProjects>
+      {/* <Achievement></Achievement> */}
 
       </div>
       
