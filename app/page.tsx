@@ -3,9 +3,10 @@ import Image from "next/image";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { FaHome } from "react-icons/fa";
 import Grid from "@/components/Grid";
-import Profile from "@/components/Profile";
+
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
+import Profile from "@/components/Profile";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <FloatingNav
         navItems={navItems}></FloatingNav>
       <Hero></Hero>
-      {/* <Profile></Profile> */}
+      <Profile></Profile>
 
       <Grid></Grid>
       <RecentProjects></RecentProjects>
