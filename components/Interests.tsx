@@ -9,8 +9,8 @@ const Interests = () => {
             <h1 className='heading'>A small selection of my 
         <span className='text-purple'> Personal Interests</span>
       </h1>
-      <div className='flex flex-col items-center'>
-        <div className='h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden'>
+      <div className='flex flex-col items-center max-lg:mt-10'>
+        <div >
         <InfiniteMovingCards
         items={testimonials}
         direction='right'
