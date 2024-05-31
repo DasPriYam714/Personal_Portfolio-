@@ -28,7 +28,7 @@ const Profile = () => {
        <BackgroundGradient className="rounded-[22px] max-w-150px p-2 sm:p-10 bg-white dark:bg-zinc-900 justify-center  ">
        <div className='flex flex-col lg:flex-row flex-between justify-between sm:mb-4 '>
        
-       <div className='text-center text-[40px] md:text-4xl lg:text-5xl w-[45vh] sm:w-[60vh] sm:text-wrap text-justify sm:mr-2 sm:ml-3'>
+       <div className='text-justify justify-center w-[42vh] text-[40px] mb-5 md:text-4xl lg:text-5xl w-[40vh] md:w-[50vh] sm:text-justify sm:text-center sm:ml-3'>
        <div className='text-center'>
        <h1>Hi! I'm <span className='text-blue-500 dark:text-blue-500'>Priyam</span></h1>
        <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
@@ -44,13 +44,13 @@ const Profile = () => {
  knowledge and skills to contribute effectively.
         </p>
        </div>
-       <div className='justify-center lg:w-[50vh]  '>
+       <div className='justify-center lg:w-[55vh] sm:mt-5 md:justify-center item-center '>
        <img
           src='priyam.png'
           alt="Priyam"
-          height="500"
-          width="500"
-          className="rounded-[20px] flex flex-center justify-center  md:mt-12 mb-3 lg:ml-2 mt-15 sm:mt-4"
+          height="600"
+          width="600"
+          className="rounded-[20px] flex flex-center justify-center  md:mt-12 mb-3 mt-15 sm:mt-4"
         />
        </div>
        </div>

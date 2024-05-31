@@ -8,6 +8,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Profile from "@/components/Profile";
 import Achievement from "@/components/ui/achievement";
+import Interests from "@/components/Interests";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
       <Grid></Grid>
       <RecentProjects></RecentProjects>
       {/* <Achievement></Achievement> */}
+      <Interests></Interests>
+
 
       </div>
       
