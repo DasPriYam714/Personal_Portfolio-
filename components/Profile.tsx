@@ -114,11 +114,7 @@ const Profile = () => {
             </a>
           </div>
         </div>
-        
-       
       </BackgroundGradient>
-       
-
     </div>
 );
 };
