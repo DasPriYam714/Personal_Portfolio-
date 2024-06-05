@@ -10,7 +10,7 @@ const MySkills = () => {
     >
       <div className="w-full lg:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Hard Skills</h2>
         </div>
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
@@ -187,7 +187,7 @@ const MySkills = () => {
       {/* Part 2 */}
       <div className="w-full lg:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Design & Tools</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Soft Skills</h2>
         </div>
         <div className='className="mt-14 w-full flex flex-col gap-6'>
           <div className="overflow-x-hidden">

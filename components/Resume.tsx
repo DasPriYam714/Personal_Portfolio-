@@ -15,6 +15,9 @@ const Resume = () => {
       className="w-full py-20 border-b-[1px] border-b-gray-700"
     >
       <Anime>
+      <h1 className='heading mb-7'>A short collection of my 
+        <span className='text-purple'> Education, Skills and Experiences</span>
+      </h1>
         
         <div className="flex justify-center items-center text-center">
           <ul className="w-full justify-center flex flex-row-1 md:flex-cols-2 ">
@@ -24,7 +27,7 @@ const Resume = () => {
                 setSkillData(true);
               }}
               className={`${
-                skillData ? 'border-designColor rounded-lg' : 'border-transparent'
+                skillData ? 'border-[#080356] rounded-lg' : 'border-transparent'
               } resumeLi`}
             >
               Professional Skills
@@ -35,7 +38,7 @@ const Resume = () => {
                 setSkillData(false);
               }}
               className={`${
-                educationData ? 'border-designColor rounded-lg' : 'border-transparent'
+                educationData ? 'border-[#080356] rounded-lg' : 'border-transparent'
               } resumeLi`}
             >
               Education & Experience
