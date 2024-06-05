@@ -9,6 +9,7 @@ import { navItems } from "@/data";
 import Profile from "@/components/Profile";
 import Achievement from "@/components/ui/achievement";
 import Interests from "@/components/Interests";
+import { Resume } from "@/components/Resume";
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
       <RecentProjects></RecentProjects>
       {/* <Achievement></Achievement> */}
       <Interests></Interests>
+      <Resume></Resume>
+
 
 
       </div>

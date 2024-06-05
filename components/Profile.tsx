@@ -26,17 +26,17 @@ const Profile = () => {
     return (
         <div >
        <BackgroundGradient className="rounded-[22px] max-w-150px p-2 sm:p-10 bg-white dark:bg-zinc-900 justify-center  ">
-       <div className='flex flex-col lg:flex-row flex-between justify-between sm:mb-4 '>
+       <div className='flex flex-col mb-4 md:flex-row flex-between justify-center md:justify-between  '>
        
-       <div className='text-justify justify-center w-[42vh] text-[40px] mb-5 md:text-4xl lg:text-5xl w-[40vh] md:w-[50vh] sm:text-justify sm:text-center sm:ml-3'>
-       <div className='text-center'>
+       <div className='text-justify justify-center w-[60vh] text-[40px] mb-5 md:text-4xl lg:text-5xl  md:w-[70vh] '>
+       <div className='text-center justify-center'>
        <h1>Hi! I'm <span className='text-blue-500 dark:text-blue-500'>Priyam</span></h1>
        <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
           Lets Meet Together.
         </p>
        </div>
  
-        <p className="text-sm text-neutral-600 dark:text-neutral-400 sm:text-wrap sm:mb-4 sm:ml-5">
+        <p className="text-sm text-neutral-600 dark:text-neutral-400 justify-center sm:text-wrap sm:mb-4 sm:ml-5 md:mr-5">
         As a driven computer science graduate proficient in JavaScript, React, Next.js, and Nest.js, I bring
  expertise in manual software testing, including writing test cases and effectively identifying bugs. My
  collaborative approach with developers ensures high-quality software releases. A quick learner with a
@@ -50,7 +50,7 @@ const Profile = () => {
           alt="Priyam"
           height="600"
           width="600"
-          className="rounded-[20px] flex flex-center justify-center  md:mt-12 mb-3 mt-15 sm:mt-4"
+          className="rounded-[20px] flex flex-center justify-center mt-4 mb-3  md:mt-20 "
         />
        </div>
        </div>
