@@ -9,7 +9,7 @@ import { navItems } from "@/data";
 import Profile from "@/components/Profile";
 import Achievement from "@/components/ui/achievement";
 import Interests from "@/components/Interests";
-import { Resume } from "@/components/Resume";
+import Resume from "@/components/Resume";
 
 export default function Home() {
   return (
