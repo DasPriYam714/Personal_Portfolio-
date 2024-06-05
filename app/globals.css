@@ -64,9 +64,6 @@
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
   }
-}
-
-@layer base {
   * {
     @apply border-border !scroll-smooth;
   }
@@ -76,7 +73,12 @@
   button {
     @apply active:outline-none;
   }
+  .text-lightText {
+    color: #f8f9fa; /* Example color, change to your preferred light text color */
+  }
 }
+
+
 
 @layer utilities {
   .heading {
@@ -87,15 +89,16 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
   .resumeLi {
-    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[2px]  rounded-none;
+    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[2px]  rounded-xl;
   }
   .bgOpacity {
     @apply bg-black bg-opacity-40;
   }
   .contactInput {
-    @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#020617] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300;
+    @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#020617] text-white-200 px-4 active:outline-none focus-visible:outline-[#08264e] outline-none focus-visible:border-b-transparent  duration-300;
   }
   .contactTextArea {
-    @apply w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#020617] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none;
+    @apply w-full rounded-xl border-b-[1px] border-b-gray-600 bg-[#020617] text-white-200 px-4 py-2  active:outline-none focus-visible:outline-[#08264e]  outline-none focus-visible:border-b-transparent  duration-300 resize-none;
   }
+
 }

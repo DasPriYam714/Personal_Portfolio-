@@ -16,7 +16,7 @@ const Resume = () => {
     >
       <Anime>
       <h1 className='heading mb-7'>A short collection of my 
-        <span className='text-purple'> Education, Skills and Experiences</span>
+        <span className='text-purple'> Education, Skills & Experiences</span>
       </h1>
         
         <div className="flex justify-center items-center text-center">

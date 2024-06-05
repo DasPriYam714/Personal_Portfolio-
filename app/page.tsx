@@ -10,6 +10,7 @@ import Profile from "@/components/Profile";
 import Achievement from "@/components/ui/achievement";
 import Interests from "@/components/Interests";
 import Resume from "@/components/Resume";
+import ContactMe from "@/components/ContactMe";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       {/* <Achievement></Achievement> */}
       <Interests></Interests>
       <Resume></Resume>
+      <ContactMe></ContactMe>
 
 
 
