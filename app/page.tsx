@@ -12,6 +12,7 @@ import Interests from "@/components/Interests";
 import Resume from "@/components/Resume";
 import ContactMe from "@/components/ContactMe";
 import WhatIDo from "@/components/WhatIDo";
+import { MyApproach } from "@/components/MyApproach";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
       {/* <Achievement></Achievement> */}
       <Interests></Interests>
       <Resume></Resume>
+      <MyApproach></MyApproach>
+
       <ContactMe></ContactMe>
       <WhatIDo></WhatIDo>
 
