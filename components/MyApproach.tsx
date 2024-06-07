@@ -3,18 +3,21 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/canvas-reveal-effect";
+import { div } from "three/examples/jsm/nodes/Nodes.js";
 export function MyApproach() {
   return (
     <>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-5">
-        <Card title="Sheetal is Nisha" icon={<AceternityIcon />}>
+        <Card title="Planning and Strategy" icon={<AceternityIcon order="Phase 1"/>}
+        description="Effective planning and strategy in web development ensure clear project goals, timeline management, and resource allocation, laying a solid foundation for successful project execution">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Planning and Strategy" 
-              icon={<AceternityIcon />}>
+        <Card title="Development & Progress Update" 
+              icon={<AceternityIcon order="Phase 2"/>}
+              description="Continuous progress updates during the development phase facilitate collaborative problem-solving and maintain alignment with project timelines and deliverables.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -27,7 +30,8 @@ export function MyApproach() {
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon />}>
+        <Card title="Development & Launch" icon={<AceternityIcon order="Phase 3"/>}
+        description="Successful web development and launch require meticulous testing, optimization, and coordination, ensuring a seamless transition from staging to a live environment.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
@@ -43,10 +47,12 @@ const Card = ({
   title,
   icon,
   children,
+  description,
 }: {
   title: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
+  description: string
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -79,30 +85,27 @@ const Card = ({
         <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {title}
         </h2>
+        <p className="dark:text-white text-l opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-semibold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+          {description}
+        </p>
       </div>
     </div>
   );
 };
 
-const AceternityIcon = () => {
+const AceternityIcon = ({order} : {order:string}) => {
   return (
-    <svg
-      width="66"
-      height="65"
-      viewBox="0 0 66 65"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-10 w-10 text-black dark:text-white group-hover/canvas-card:text-white "
-    >
-      <path
-        d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-        stroke="currentColor"
-        strokeWidth="15"
-        strokeMiterlimit="3.86874"
-        strokeLinecap="round"
-        style={{ mixBlendMode: "darken" }}
-      />
-    </svg>
+   
+    <div>
+
+
+        <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          {order}
+        </button>
+  
+      
+      
+    </div>
   );
 };
 
