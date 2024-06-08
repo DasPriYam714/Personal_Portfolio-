@@ -7,7 +7,12 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 export function MyApproach() {
   return (
     <>
+    <div>
+    <h1 className='heading mb-7'>A short collection of 
+        <span className='text-purple'> What I Do</span>
+      </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-5">
+      
         <Card title="Planning and Strategy" icon={<AceternityIcon order="Phase 1"/>}
         description="Effective planning and strategy in web development ensure clear project goals, timeline management, and resource allocation, laying a solid foundation for successful project execution">
           <CanvasRevealEffect
@@ -38,6 +43,7 @@ export function MyApproach() {
             colors={[[125, 211, 252]]}
           />
         </Card>
+      </div>
       </div>
     </>
   );

@@ -24,7 +24,7 @@ interface Items{
 const Profile = () => {
     
     return (
-        <div >
+        <div id='profile' >
        <BackgroundGradient className="rounded-[22px] max-w-150px p-2 sm:p-10 bg-white dark:bg-zinc-900 justify-center  ">
        <div className='flex flex-col mb-4 md:flex-row flex-between justify-center md:justify-between  '>
        
@@ -37,11 +37,7 @@ const Profile = () => {
        </div>
  
         <p className="text-sm text-neutral-600 dark:text-neutral-400 justify-center sm:text-wrap sm:mb-4 sm:ml-5 md:mr-5">
-        As a driven computer science graduate proficient in JavaScript, React, Next.js, and Nest.js, I bring
- expertise in manual software testing, including writing test cases and effectively identifying bugs. My
- collaborative approach with developers ensures high-quality software releases. A quick learner with a
- keen eye for detail, I excel in solving complex problems. Seeking a position where I can apply my strong
- knowledge and skills to contribute effectively.
+        I'm a frontend-focused MERN junior developer with expertise in JavaScript, React, Next.js, and Nest.js. Passionate about crafting dynamic web applications, I thrive on challenges, bringing innovative solutions through problem-solving skills. Proficient in manual software testing, I ensure high-quality releases and collaborate effectively with developers. As a driven computer science graduate, I'm committed to continuous learning and staying updated with industry trends. With a strong foundation in the MERN stack, I'm eager to make an impact in the IT industry, combining my development and testing skills to deliver robust solutions. My collaborative approach, problem-solving abilities, and attention to detail equip me to excel in any project. I value effective communication and teamwork and am excited to contribute my skills and creativity to drive technological innovation forward.
         </p>
        </div>
        <div className='justify-center lg:w-[55vh] sm:mt-5 md:justify-center item-center '>
