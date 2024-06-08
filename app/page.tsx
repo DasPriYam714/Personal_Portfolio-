@@ -28,10 +28,11 @@ export default function Home() {
       {/* <Achievement></Achievement> */}
       <Interests></Interests>
       <Resume></Resume>
+      <WhatIDo></WhatIDo>
       <MyApproach></MyApproach>
 
       <ContactMe></ContactMe>
-      <WhatIDo></WhatIDo>
+      
 
 
 

@@ -5,13 +5,13 @@ import Link from 'next/link';
 import { profileItems } from '@/data';
 import { BentoGridItem } from './ui/bento-grid';
 import { BackgroundGradient } from './ui/background-gradient';
-import { FaNodeJs, FaReact } from 'react-icons/fa';
-import { SiFigma, SiMongodb, SiNextdotjs, SiPostgresql, SiTailwindcss } from 'react-icons/si';
-import { IoLogoJavascript } from 'react-icons/io5';
+import { FaNodeJs,FaPhp, FaReact } from 'react-icons/fa';
+import {  SiNextdotjs, SiPostgresql, SiTailwindcss } from 'react-icons/si';
 import { ImGithub } from "react-icons/im";
 import { LuLinkedin } from "react-icons/lu";
 import { RiFacebookCircleLine } from "react-icons/ri";
-import { SiDotnet } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiDotnet, SiNestjs } from "react-icons/si";
 interface Items{
     id: number;
   img:string;
@@ -57,33 +57,34 @@ const Profile = () => {
        <div className="flex flex-col gap-10 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
+          EXPERTISE IN
           </h2>
-          <div className="flex gap-4 text-2xl">
+          <div className="flex gap-4 text-3xl">
+          <span className="bannerIcon">
+              <FaNodeJs />
+            </span>
+            <span className="bannerIcon">
+              <FaPhp />
+            </span>
             <span className="bannerIcon">
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <FaNodeJs />
+              <SiNestjs />
             </span>
             <span className="bannerIcon">
-              <SiMongodb />
+              <TbBrandNextjs />
+            </span>
+            <span className="bannerIcon">
+              <SiDotnet />
             </span>
             <span className="bannerIcon">
               <SiPostgresql />
             </span>
             <span className="bannerIcon">
-              <IoLogoJavascript />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
               <SiTailwindcss />
             </span>
-            <span className="bannerIcon">
-              <SiDotnet />
-            </span>
+           
 
           </div>
         </div>
@@ -93,7 +94,7 @@ const Profile = () => {
           <h2 className="text-base uppercase font-titleFont mb-4 mt-5">
             Find me in
           </h2>
-          <div className="flex gap-4 text-2xl">
+          <div className="flex gap-4 text-3xl">
             <a href="https://github.com/DasPriYam714" target="_blank">
               <span className="bannerIcon">
                 <ImGithub></ImGithub>

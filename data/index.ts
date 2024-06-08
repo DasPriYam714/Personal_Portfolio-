@@ -174,28 +174,28 @@ export const navItems = [
     {
       id: 1,
       title: "Web Developer",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      desc: "At university, I delved into advanced web technology, igniting my passion for development. As a frontend developer trainee at Programme, I honed my skills. Further, I enhanced my expertise through Programming Hero, building a strong web development foundation.",
       className: "md:col-span-2",
-      thumbnail: "/developer.jpeg",
+      thumbnail: "/tester.webp",
     },
     {
       id: 2,
       title: "Designer",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      desc: "I ventured into motion graphics, gaining design insights. At Programming Hero, I independently designed websites based on client requirements, enhancing my skills. This hands-on experience also equipped me with proficiency in Figma design.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/Css.webp",
     },
     {
       id: 3,
-      title: "Testing",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Software Testing",
+      desc: "During my university years, I completed a comprehensive software quality testing course, mastering manual testing, white box testing, and the Software Testing Life Cycle (STLC). Driven by curiosity, I furthered my expertise through self-study, delving into unit testing, API testing, and integration testing.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/tester.webp",
+      thumbnail: "/helloY.webp",
     },
     {
       id: 4,
       title: "Photography",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      desc: "As a budding photographer, every click captures a world of emotions and stories. From exploring light and shadow to framing the perfect shot, each moment behind the lens is an opportunity to craft visual poetry and share unique perspectives with the world.",
       className: "md:col-span-2",
       thumbnail: "/photography.svg",
     },
