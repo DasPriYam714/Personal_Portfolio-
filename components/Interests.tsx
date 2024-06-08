@@ -1,6 +1,6 @@
 import React from 'react';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
-import { testimonials } from '@/data';
+import { interests } from '@/data';
 
 const Interests = () => {
     return (
@@ -12,7 +12,7 @@ const Interests = () => {
       <div className='flex flex-col items-center max-lg:mt-10'>
         <div >
         <InfiniteMovingCards
-        items={testimonials}
+        items={interests}
         direction='right'
         speed='slow'></InfiniteMovingCards>
         </div>

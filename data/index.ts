@@ -169,6 +169,38 @@ export const navItems = [
       nameImg: "/dockerName.svg",
     },
   ];
+  export const interests = [
+    {
+      quote:
+        "Human-Computer Interaction (HCI) fascinates me as it explores the relationship between humans and technology, focusing on creating seamless and intuitive user experiences. I'm intrigued by how design principles and psychological insights shape user interactions with software and devices. Understanding user needs and behaviors allows for the development of user-friendly interfaces. I'm passionate about HCI's potential to improve technology usability and enhance human productivity, and I'm eager to contribute to this field with innovative solutions.",
+      name: "Human Computer Interaction",
+      title: "Director of AlphaStream Technologies",
+    },
+    {
+      quote:
+        "Virtual Reality (VR) opens doors to immersive digital experiences, blending reality with imagination. For enthusiasts, VR offers boundless opportunities to explore new worlds, simulate real-life scenarios, and unleash creativity. Whether diving into virtual environments, creating interactive content, or pushing the boundaries of technology, VR enthusiasts are at the forefront of innovation. With endless possibilities for gaming, education, training, and beyond, VR continues to inspire and captivate those who seek to explore the realms of virtual reality.",
+      name: "Virtual Reality ",
+      title: "Director of AlphaStream Technologies",
+    },
+    {
+      quote:
+        "Software testing is not just about finding bugs; it's about ensuring the reliability and quality of software products. As someone passionate about software testing, I enjoy the detective work involved in uncovering defects and ensuring that the end-users have a seamless experience. I thrive on the meticulous process of writing test cases, executing tests, and collaborating with developers to deliver robust and error-free software solutions that meet the highest standards of quality and user satisfaction.",
+      name: " Software Testing ",
+      title: "Director of AlphaStream Technologies",
+    },
+    {
+      quote:
+        "Artificial Intelligence fascinates me with its endless possibilities to revolutionize various industries. I'm intrigued by its ability to mimic human intelligence and solve complex problems autonomously. Exploring AI's advancements, from machine learning to natural language processing, ignites my curiosity. I'm passionate about leveraging AI to innovate, enhance efficiency, and create smarter solutions that positively impact people's lives. Continuous learning in AI drives me to stay at the forefront of this transformative technology.",
+      name: "Artificial Intelligence",
+      title: "Director of AlphaStream Technologies",
+    },
+    {
+      quote:
+        "Photography is more than just capturing moments; it's about telling stories, evoking emotions, and capturing the beauty of the world. For those passionate about photography, every click is an opportunity to explore creativity, perspective, and expression. Whether capturing landscapes, portraits, or everyday scenes, photography allows us to freeze moments in time and share our unique vision with others. It's a journey of discovery, creativity, and endless possibilities waiting to be explored.",
+      name: "Photography ",
+      title: "Director of AlphaStream Technologies",
+    },
+  ];
   
   export const whatIDo = [
     {
