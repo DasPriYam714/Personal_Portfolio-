@@ -6,6 +6,7 @@ import TailwindcssButtons from './ui/tailwindcss-buttons';
 import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
+  const dev=['Frontend', 'Full-Stack']
     const words = [
         {
             text: "Hi!",

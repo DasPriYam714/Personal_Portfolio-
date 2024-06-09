@@ -4,10 +4,12 @@ import { useState } from 'react';
 import MySkills from './ui/MySkills';
 import EducationResults from './ui/educationResult';
 import { Anime } from './ui/Anime';
+import { FlipWords } from './ui/flip-words';
 
 const Resume = () => {
-  const [educationData, setEducationData] = useState<boolean>(true);
-  const [skillData, setSkillData] = useState<boolean>(false);
+  const [educationData, setEducationData] = useState<boolean>(false);
+  const [skillData, setSkillData] = useState<boolean>(true);
+  const part =['Education', 'Skills', 'Experience']
 
   return (
     <section
@@ -16,7 +18,7 @@ const Resume = () => {
     >
       <Anime>
       <h1 className='heading mb-7'>A short collection of my 
-        <span className='text-purple'> Education, Skills & Experiences</span>
+        <span className='text-purple'><FlipWords wrd={part} className='text-purple'></FlipWords></span>
       </h1>
         
         <div className="flex justify-center items-center text-center">

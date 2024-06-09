@@ -48,16 +48,16 @@ const EducationResults = () => {
       {/* part two */}
       <div className="w-full md:w-1/2">
         <div className="py-6 lg:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">Feb 2024 - April 2024</p>
+          <p className="text-sm text-designColor tracking-[4px]">June 2023 - Feb 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Work Experience</h2>
         </div>
         <div className="mt-6 lg:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 ">
           <AcademicResults
           className='shadow-lg shadow-gray-400'
-            title="App & Web Developer Trainee"
+            title="WordPress Developer Trainee"
             subTitle="Intern at Programee"
-            year="Here I am working as an App & Web developer trainee. I am working with the Programee Development team to build their website using ReactJS and NodeJS.
-            I am successfully developing an advanced e-learning app, handling UI/UX design and blueprint scripting in Unreal Engine 5."
+            year="Here I worked as an wordpress developer trainee. I worked with the Development team to build their website using wordpress.
+            I successfully developed an advanced e-commerce website, and handled UI/UX design."
             result="Bangladesh"
           >
             

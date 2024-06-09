@@ -26,9 +26,9 @@ const Profile = () => {
     return (
         <div id='profile' >
        <BackgroundGradient className="rounded-[22px] max-w-150px p-2 sm:p-10 bg-white dark:bg-zinc-900 justify-center  ">
-       <div className='flex flex-col mb-4 md:flex-row flex-between justify-center md:justify-between  '>
+       <div className='flex flex-col mb-4 md:flex-row flex-between justify-items-center justify-center md:justify-between  '>
        
-       <div className='text-justify justify-center w-[60vh] text-[40px] mb-5 md:text-4xl lg:text-5xl  md:w-[70vh] '>
+       <div className='flex flex-col text-justify justify-center w-[60vh] text-[40px] mb-5 md:text-4xl lg:text-5xl  md:w-[70vh] '>
        <div className='text-center justify-center'>
        <h1>Hi! I'm <span className='text-blue-500 dark:text-blue-500'>Priyam</span></h1>
        <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
@@ -37,7 +37,7 @@ const Profile = () => {
        </div>
  
         <p className="text-sm text-neutral-600 dark:text-neutral-400 justify-center sm:text-wrap sm:mb-4 sm:ml-5 md:mr-5">
-        I'm a frontend-focused MERN junior developer with expertise in JavaScript, React, Next.js, and Nest.js. Passionate about crafting dynamic web applications, I thrive on challenges, bringing innovative solutions through problem-solving skills. Proficient in manual software testing, I ensure high-quality releases and collaborate effectively with developers. As a driven computer science graduate, I'm committed to continuous learning and staying updated with industry trends. With a strong foundation in the MERN stack, I'm eager to make an impact in the IT industry, combining my development and testing skills to deliver robust solutions. My collaborative approach, problem-solving abilities, and attention to detail equip me to excel in any project. I value effective communication and teamwork and am excited to contribute my skills and creativity to drive technological innovation forward.
+        I'm a frontend-focused full-stack junior developer with expertise in JavaScript, React, Next.js, and Nest.js. Passionate about crafting dynamic web applications, I thrive on challenges, bringing innovative solutions through problem-solving skills. Proficient in manual software testing, I ensure high-quality releases and collaborate effectively with developers. As a driven computer science graduate, I'm committed to continuous learning and staying updated with industry trends. With a strong foundation in the MERN stack, I'm eager to make an impact in the IT industry, combining my development and testing skills to deliver robust solutions. My collaborative approach, problem-solving abilities, and attention to detail equip me to excel in any project. I value effective communication and teamwork and am excited to contribute my skills and creativity to drive technological innovation forward.
         </p>
        </div>
        <div className='justify-center lg:w-[55vh] sm:mt-5 md:justify-center item-center '>

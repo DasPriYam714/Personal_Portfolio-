@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const RecentProjects = () => {
   return (
-    <div className='py-20' id='projects'>
+    <div className='py-10' id='projects'>
       <h1 className='heading'>A small selection of 
         <span className='text-purple'> Recent Projects</span>
       </h1>
@@ -15,17 +15,17 @@ const RecentProjects = () => {
             <div key={id} className=' sm:h-[41rem] h-[32rem]lg:min-h-[32.5] h-[25rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                 
                 <PinContainer title={title} href={link}>
-                    <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
+                    <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[30vh] h-[20vh] mb-10'>
                         <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
-                            <img src="/bg.png" alt="bg-img" />
+                            <img src="/bg.png" alt="bg-img" className='absolute' />
 
                         </div>
-                        <img src={img} alt={title} className='z-10 absolute bottom-0' />
+                        <img src={img} alt={title} className='z-10 absolute bottom-0  w-[52vh] mt-5 rounded-lg' />
                     </div>
                     <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
                         {title}
                     </h1>
-                    <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'> priyamdas.aiub@gmail.com
+                    <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'> 
                         {des}
 
                     </p>
@@ -39,10 +39,14 @@ const RecentProjects = () => {
                             ))}
 
                         </div>
-                        <div className='flex justify-center items-center'>
+                        {/* <div className='flex justify-center items-center'>
                             <p className='flex lg:text-xl md:text-xs, text-sm text-purple'>Check Live Site</p>
                             <FaLocationArrow className='ms-3' color='#CBACF9'></FaLocationArrow>
-                        </div>
+                        </div> */}
+                        <button className="flex justify-center items-center lg:text-xl md:text-xs, text-sm text-purple ">
+              <a href={link} target="_blank">See the demo</a>
+              <FaLocationArrow className='ms-3' color='#CBACF9'></FaLocationArrow>
+            </button>
                     </div>
                 </PinContainer>
             </div>
