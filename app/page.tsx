@@ -7,12 +7,13 @@ import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Profile from "@/components/Profile";
-import Achievement from "@/components/ui/achievement";
+
 import Interests from "@/components/Interests";
 import Resume from "@/components/Resume";
 import ContactMe from "@/components/ContactMe";
 import WhatIDo from "@/components/WhatIDo";
 import { MyApproach } from "@/components/MyApproach";
+import Achievement from "@/components/Achievement";
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
       <Resume></Resume>
       <WhatIDo></WhatIDo>
       <MyApproach></MyApproach>
+      <Achievement></Achievement>
+
 
       <ContactMe></ContactMe>
       
