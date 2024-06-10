@@ -14,6 +14,7 @@ import ContactMe from "@/components/ContactMe";
 import WhatIDo from "@/components/WhatIDo";
 import { MyApproach } from "@/components/MyApproach";
 import Achievement from "@/components/Achievement";
+import { Extra } from "@/components/Extra";
 
 export default function Home() {
   return (
@@ -32,9 +33,9 @@ export default function Home() {
       <WhatIDo></WhatIDo>
       <MyApproach></MyApproach>
       <Achievement></Achievement>
-
-
       <ContactMe></ContactMe>
+      <Extra></Extra>
+      
       
 
 

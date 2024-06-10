@@ -48,7 +48,7 @@ const ContactMe = () => {
   return (
     <section
       id="contact"
-      className="w-full py-20 border-b-[1px] border-b-gray-700"
+      className="w-full py-20 "
     >
       <Anime>
         <div className="flex justify-center items-center text-center mb-8">
