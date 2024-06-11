@@ -22,7 +22,7 @@ export const GlowingStarsBackgroundCard = ({
         setMouseEnter(false);
       }}
       className={cn(
-        "bg-[linear-gradient(110deg,#333_0.6%,#222)] p-4 max-w-md max-h-[20rem] h-full w-full rounded-xl border border-[#eaeaea] dark:border-neutral-800",
+        "bg-[linear-gradient(110deg,#333_0.6%,#222)] p-4 max-w-md max-h-[30rem] h-full w-full rounded-xl border border-[#eaeaea] dark:border-neutral-800",
         className
       )}
     >
@@ -42,7 +42,7 @@ export const GlowingStarsDescription = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <p className={cn("text-base text-white max-w-[100rem]", className)}>
+    <p className={cn("text-sm sm:text-lg text-white max-w-[100vh]", className)}>
       {children}
     </p>
   );
@@ -56,7 +56,7 @@ export const GlowingStarsTitle = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <h2 className={cn("font-bold text-2xl text-[#eaeaea]", className)}>
+    <h2 className={cn("font-bold text-lg sm:text-2xl text-[#eaeaea]", className)}>
       {children}
     </h2>
   );

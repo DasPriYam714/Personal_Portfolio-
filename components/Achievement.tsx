@@ -9,7 +9,7 @@ const Achievement = () => {
         <span className='text-[#d293e9]'> Achievement</span>
       </h1>
         </div>
-        <div className='flex flex-col md:flex-row items-center justify-center p-2 gap-x-24 gap-y-8 mt-10 w-auto'>
+        <div className='flex flex-col lg:flex-row items-center justify-center p-2 gap-x-24 gap-y-8 mt-10 w-auto'>
         <GlowingStarsBackgroundCard>
         <GlowingStarsTitle className='text-blue-500'>THE CHATGAIYA VIEW</GlowingStarsTitle>
         <div className="flex  items-end">
