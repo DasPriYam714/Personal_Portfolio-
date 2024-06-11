@@ -4,6 +4,7 @@ import { TextGenerateEffect } from './ui/text-generate-effect';
 import {  TypewriterEffectSmooth } from './ui/typewriter-effect';
 import TailwindcssButtons from './ui/tailwindcss-buttons';
 import { FaLocationArrow } from "react-icons/fa";
+import { navItems } from '@/data';
 
 const Hero = () => {
   const dev=['Frontend', 'Full-Stack']
@@ -72,13 +73,13 @@ const Hero = () => {
           </p>
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-xl md:text-5xl lg:text-6xl"
           />
            {/* <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Priyam, a Frontend Developer based in Bangladesh.
           </p> */}
           <TypewriterEffectSmooth words={words} />
-          <a href="">
+          <a href='https://github.com/DasPriYam714' target='_blank'>
             <TailwindcssButtons 
             title='Show my Work'
             icon={<FaLocationArrow className='text-white'></FaLocationArrow>}

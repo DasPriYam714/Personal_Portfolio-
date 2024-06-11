@@ -10,7 +10,7 @@ export function Extra() {
         Are you prepared to elevate your digital presence to new heights?
         </h2>
         
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10 mt-5">
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm sm:text-lg text-center relative z-10 mt-5">
         Connect with me today to explore how I can assist you in reaching your goals.
         </p>
         {/* <input
