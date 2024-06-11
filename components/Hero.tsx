@@ -22,7 +22,7 @@ const Hero = () => {
             text: "a",
           },
         {
-          text: " Frontend",
+          text: " Full Stack",
           className: "text-blue-500 dark:text-blue-500",
         },
         {
@@ -72,7 +72,7 @@ const Hero = () => {
         Crafting Code, Shaping Futures
           </p>
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Turning Ideas into Effortless User Experiences"
             className="text-center text-xl md:text-5xl lg:text-6xl"
           />
            {/* <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
