@@ -6,6 +6,7 @@ import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
   dsn: "https://7a3df76fa5d968091225acc2d4204574@o4507343767732224.ingest.us.sentry.io/4507343775137792",
+  
 
   // Adjust this value in production, or use tracesSampler for greater control
   tracesSampleRate: 1,
@@ -31,4 +32,5 @@ Sentry.init({
       colorScheme: "system",
     }),
   ],
+  
 });
