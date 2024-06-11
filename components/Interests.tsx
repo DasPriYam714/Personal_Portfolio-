@@ -7,7 +7,7 @@ const Interests = () => {
         <div>
             <div>
             <h1 className='heading'>A small selection of my 
-        <span className='text-purple'> Personal Interests</span>
+        <span className='text-[#d293e9]'> Personal Interests</span>
       </h1>
       <div className='flex flex-col items-center max-lg:mt-10'>
         <div >

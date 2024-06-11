@@ -81,7 +81,7 @@ const Hero = () => {
           <TypewriterEffectSmooth words={words} />
           <a href='https://github.com/DasPriYam714' target='_blank'>
             <TailwindcssButtons 
-            title='Show my Work'
+            title='See my Work'
             icon={<FaLocationArrow className='text-white'></FaLocationArrow>}
             position='right'></TailwindcssButtons>
 

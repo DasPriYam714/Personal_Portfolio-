@@ -6,8 +6,8 @@ const WhatIDo = () => {
     return (
         <div>
             <div className='mt-10 mb-8'>
-            <h1 className='heading mb-7'>A short collection of 
-        <span className='text-purple'> What I Do</span>
+            <h1 className='heading mb-10'>A short collection of 
+        <span className='text-[#d293e9]'> What I Do</span>
       </h1>
             </div>
             <div className='w-full mt-12 mb-10 grid md:grid-cols-2 grid-cols-1 gap-10'>

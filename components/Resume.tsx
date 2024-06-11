@@ -17,8 +17,8 @@ const Resume = () => {
       className="w-full py-20 border-b-[1px] border-b-gray-700"
     >
       <Anime>
-      <h1 className='heading mb-7'>A short collection of my 
-        <span className='text-purple'><FlipWords wrd={part} className='text-purple'></FlipWords></span>
+      <h1 className='heading mb-10'>A short collection of my 
+        <span className='text-[#d293e9]'><FlipWords wrd={part} className='text-[#d293e9]'></FlipWords></span>
       </h1>
         
         <div className="flex justify-center items-center text-center">

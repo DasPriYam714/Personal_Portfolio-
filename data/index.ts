@@ -89,18 +89,18 @@ export const navItems = [
     {
       id: 3,
       title: "Portal Management",
-      des: "Here User choose students, add new students for section, calculate total marks, and can publish notice for students",
+      des: "Here User choose students, add new students for section, calculate total marks and can publish notice for students",
       img: "/home-page.png",
       iconLists: ["/nestjs.svg", "/next.svg", "/tail.svg", "/ts.svg", ],
       link: "https://github.com/DasPriYam714/Portal_Management-Full-Stack-",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      title: "Ukil Khujee",
+      des: "Here User choose their lawyer, can live chat with  their lawyer, calculate total transaction and can give review on them",
+      img: "/ukil.jpg",
+      iconLists: ["/PHP.png","/html.svg", "/tail.svg", "/css.png", ],
+      link: "https://github.com/DasPriYam714/Ukil_Khujee-PHP-HTML-CSS-",
     },
   ];
   

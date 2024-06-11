@@ -8,8 +8,8 @@ export function MyApproach() {
   return (
     <>
     <div>
-    <h1 className='heading mb-7'>A small idea of my 
-        <span className='text-purple'> Approach</span>
+    <h1 className='heading mb-10'>A small idea of my 
+        <span className='text-[#d293e9]'> Approach</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-5">
       
