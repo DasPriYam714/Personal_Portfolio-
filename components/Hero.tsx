@@ -75,9 +75,9 @@ const Hero = () => {
             words="Turning Ideas into Effortless User Experiences"
             className="text-center text-xl md:text-5xl lg:text-6xl"
           />
-           {/* <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Priyam, a Frontend Developer based in Bangladesh.
-          </p> */}
+          </p>
           <TypewriterEffectSmooth words={words} />
           <a href='https://github.com/DasPriYam714' target='_blank'>
             <TailwindcssButtons 
