@@ -54,8 +54,8 @@ const EducationResults = () => {
         <div className="mt-6 lg:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 ">
           <AcademicResults
           className='shadow-lg shadow-gray-400'
-            title="WordPress Developer Trainee"
-            subTitle="Intern at Programee"
+            title="WordPress Developer"
+            subTitle="Tech Manager at GAOTek"
             year="Here I worked as an wordpress developer trainee. I worked with the Development team to build their website using wordpress.
             I successfully developed an advanced e-commerce website, and handled UI/UX design."
             result="Bangladesh"

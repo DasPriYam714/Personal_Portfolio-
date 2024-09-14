@@ -72,6 +72,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "StyleHive",
+      des: "This beginner-level HTML, CSS, and JavaScript website allows users to easily book their tickets. It is responsive and a great practice project for HTML and CSS.",
+      img: "/StyleHive.png",
+      iconLists: ["/javascript.png","/html.svg", "/tail.svg","/react.svg" ],
+      link: "https://style-hive.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Hockey HeritageHub",
       des: "The web project, utilizing HTML, CSS, and Tailwind, seamlessly adapts for mobile and medium screens, prioritizing user experience with sleek design.",
       img: "/Hockey.png",
@@ -79,7 +87,7 @@ export const navItems = [
       link: "https://hockey-heritage-hub-a3-tailwind-daisy-ui.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "P-Ticket",
       des: "This beginner-level HTML, CSS, and JavaScript website allows users to easily book their tickets. It is responsive and a great practice project for HTML and CSS.",
       img: "/p-ticketing.png",
@@ -87,7 +95,7 @@ export const navItems = [
       link: "https://p-ticketing-using-64xg4v5n7-daspriyam714s-projects.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Portal Management",
       des: "Here User choose students, add new students for section, calculate total marks and can publish notice for students",
       img: "/home-page.png",
@@ -95,7 +103,7 @@ export const navItems = [
       link: "https://github.com/DasPriYam714/Portal_Management-Full-Stack-",
     },
     {
-      id: 4,
+      id: 5,
       title: "Ukil Khujee",
       des: "Here User choose their lawyer, can live chat with  their lawyer, calculate total transaction and can give review on them",
       img: "/ukil.jpg",
