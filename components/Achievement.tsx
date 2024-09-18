@@ -5,7 +5,7 @@ const Achievement = () => {
     return (
         <div>
              <div className="flex justify-center items-center text-center mb-8">
-        <h1 className='heading'>A small collection of my
+        <h1 className='heading mb-10'>A small collection of my
         <span className='text-[#d293e9]'> Achievement</span>
       </h1>
         </div>

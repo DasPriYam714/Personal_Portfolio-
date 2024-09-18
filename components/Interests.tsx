@@ -6,7 +6,7 @@ const Interests = () => {
     return (
         <div>
             <div>
-            <h1 className='heading'>A small selection of my 
+            <h1 className='heading mb-10'>A small selection of my 
         <span className='text-[#d293e9]'> Personal Interests</span>
       </h1>
       <div className='flex flex-col items-center max-lg:mt-10'>

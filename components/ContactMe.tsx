@@ -52,7 +52,7 @@ const ContactMe = () => {
     >
       <Anime>
         <div className="flex justify-center items-center text-center mb-8">
-        <h1 className='heading'>Feel free to
+        <h1 className='heading mb-10'>Feel free to
         <span className='text-[#d293e9]'> Contact</span>
       </h1>
         </div>

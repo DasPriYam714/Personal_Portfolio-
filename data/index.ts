@@ -73,7 +73,7 @@ export const navItems = [
     {
       id: 1,
       title: "StyleHive",
-      des: "This beginner-level HTML, CSS, and JavaScript website allows users to easily book their tickets. It is responsive and a great practice project for HTML and CSS.",
+      des: "This is a Frontend part of a E-Commerce website using HTML, CSS, and React which allows users to easily select their products and place order. It is responsive and prioritizing user experience with sleek design",
       img: "/StyleHive.png",
       iconLists: ["/javascript.png","/html.svg", "/tail.svg","/react.svg" ],
       link: "https://style-hive.vercel.app/",
